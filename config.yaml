@@ -1,7 +1,7 @@
 # 注意规则在满足自己需求情况下，尽量做到精简，不要过度复杂，以免影响性能。
 # 机场订阅
 proxy-providers:
-  红杏云:
+  Airport1:
     url: "https://hongxingdl.love/hxyunvip?token=c2579ae692ca8ac3250a32fda4f8caca"
     type: http
     interval: 86400
@@ -15,7 +15,7 @@ proxy-providers:
       - "Clash"
       - "mihomo"
       - "Clash.meta"
-  百变小樱:
+  Airport2:
     url: "https://sub.s1-bbxy.com:8888/2cad2128/01b0b586-060c-4a1a-898b-49b382f926f7/YsVp8dU00RbwnKpp?x=48fd675a68e4&sub=clash&clash=1"
     type: http
     interval: 86400
