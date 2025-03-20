@@ -1,7 +1,7 @@
 # 注意规则在满足自己需求情况下，尽量做到精简，不要过度复杂，以免影响性能。
 # 机场订阅
 proxy-providers:
-  Airport1:
+  红杏云:
     url: "https://hongxingdl.love/hxyunvip?token=c2579ae692ca8ac3250a32fda4f8caca"
     type: http
     interval: 86400
@@ -15,7 +15,7 @@ proxy-providers:
       - "Clash"
       - "mihomo"
       - "Clash.meta"
-  Airport2:
+  百变小樱:
     url: "https://sub.s1-bbxy.com:8888/2cad2128/01b0b586-060c-4a1a-898b-49b382f926f7/YsVp8dU00RbwnKpp?x=48fd675a68e4&sub=clash&clash=1"
     type: http
     interval: 86400
@@ -173,6 +173,7 @@ rules:
   - RULE-SET,apple_domain,🍎 Apple
   - RULE-SET,proxylite,🚀 默认代理
   - RULE-SET,game,🎮 游戏平台
+  - RULE-SET,ProxyMedia,🌍 国外媒体
   - RULE-SET,ai,🤖 ChatGPT
   - RULE-SET,github_domain,👨🏿‍💻 GitHub
   - RULE-SET,youtube_domain,📹 YouTube
@@ -208,6 +209,7 @@ rule-providers:
   telegram_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/telegram.mrs"}
   netflix_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/netflix.mrs"}
   game: { <<: *class, url: "https://raw.githubusercontent.com/ytmfghygd/My-rule/refs/heads/main/Game.list"}
+  ProxyMedia: { <<: *class, url: "https://raw.githubusercontent.com/ACL4SSR/ACL4SSR/master/Clash/ProxyMedia.list"}
   paypal_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/paypal.mrs"}
   onedrive_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/onedrive.mrs"}
   microsoft_domain: { <<: *domain, url: "https://raw.githubusercontent.com/MetaCubeX/meta-rules-dat/meta/geo/geosite/microsoft.mrs"}
