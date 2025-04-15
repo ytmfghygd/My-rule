@@ -1,8 +1,8 @@
 # 注意规则在满足自己需求情况下，尽量做到精简，不要过度复杂，以免影响性能。
 # 机场订阅
 proxy-providers:
-  红杏云:
-    url: "https://hongxingdl.love/hxyunvip?token=c2579ae692ca8ac3250a32fda4f8caca"
+  可道云:
+    url: "https://xdn.tapcloud.me/sub/a8a7c10aec53eeade2e94f1a356b85db"
     type: http
     interval: 86400
     health-check:
